@@ -128,7 +128,7 @@ update_golang() {
 
 install_small8() {
     ./scripts/feeds install -f -ap small8 
-
+}
 install_feeds() {
     ./scripts/feeds update -i
     for dir in $BUILD_DIR/feeds/*; do
